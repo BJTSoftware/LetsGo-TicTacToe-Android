@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity() {
 
 
         val gameBoardView = binding.gameBoardView
+        gameBoardView.gridColor = ContextCompat.getColor(this, R.color.white)
+        gameBoardView.borderColor = ContextCompat.getColor(this, R.color.black)
         gameBoardView.viewModel = viewModel
         // In MainActivity or similar
-        gameBoardView.gridColor = ContextCompat.getColor(this, R.color.white)
-        gameBoardView.bgdColor = ContextCompat.getColor(this, R.color.black)
 
     }
 }

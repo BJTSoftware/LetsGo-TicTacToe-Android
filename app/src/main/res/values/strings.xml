@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Let\'s Go! Tic Tac Toe</string>
+    <string name="reset_game_text">Reset Game</string>
+    <string name="reset_series_text">Reset Series</string>
 </resources>
